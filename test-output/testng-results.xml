@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50407" started-at="2020-04-21T21:24:24 IST" finished-at="2020-04-21T21:25:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50407" started-at="2020-04-21T21:24:24 IST" finished-at="2020-04-21T21:25:14 IST">
+      <class name="rahuleshettyExtentReports.Test1">
+        <test-method status="PASS" signature="initialdemo()[pri:0, instance:rahuleshettyExtentReports.Test1@10b48321]" name="initialdemo" duration-ms="50378" started-at="2020-04-21T21:24:24 IST" finished-at="2020-04-21T21:25:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialdemo -->
+      </class> <!-- rahuleshettyExtentReports.Test1 -->
+      <class name="rahuleshettyExtentReports.Test2">
+        <test-method status="PASS" signature="googletitlevalidation()[pri:0, instance:rahuleshettyExtentReports.Test2@6b67034]" name="googletitlevalidation" duration-ms="28983" started-at="2020-04-21T21:24:24 IST" finished-at="2020-04-21T21:24:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletitlevalidation -->
+      </class> <!-- rahuleshettyExtentReports.Test2 -->
+      <class name="rahuleshettyExtentReports.Test3">
+        <test-method status="FAIL" signature="ediboxvalidation()[pri:0, instance:rahuleshettyExtentReports.Test3@16267862]" name="ediboxvalidation" duration-ms="26578" started-at="2020-04-21T21:24:24 IST" finished-at="2020-04-21T21:24:50 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at rahuleshettyExtentReports.Test3.ediboxvalidation(Test3.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ediboxvalidation -->
+      </class> <!-- rahuleshettyExtentReports.Test3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
